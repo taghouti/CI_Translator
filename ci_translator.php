@@ -90,10 +90,10 @@ function usage($argv, $message = "") {
     echo "\n [!] Error : ".$message."\n\n";
     echo " Translate a codeigniter language file, the array in the file should have 'lang' as name.\n\n";
     echo " Arguments : \n\n";
-    echo "\tfrom_language\t: language of the file (fr, en, ar ...)\n";
-    echo "\tto_language\t: language of the translation (fr, en, ar ...)\n";
-    echo "\tsource_file_path\t\t: codeigniter language file path\n";
-    echo "\toutput_file_path\t\t: output file path\n\n";
+    echo "\tfrom_language\t\t: language of the file (fr, en, ar ...)\n";
+    echo "\tto_language\t\t: language of the translation (fr, en, ar ...)\n";
+    echo "\tsource_file_path\t: codeigniter language file path\n";
+    echo "\toutput_file_path\t: output file path\n\n";
     echo "\tUsage : php ".$argv[0]." from_language to_language source_file_path output_file_path\n\n";
     echo "\tExample : php ".$argv[0]." fr en /home/user/french/countries_lang.php /home/user/english/countries_lang.php\n\n";
     die();
