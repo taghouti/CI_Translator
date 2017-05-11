@@ -7,7 +7,7 @@
         source_file_path        : codeigniter language file path
         output_file_path        : output file path
 
-        Usage : ci_translator.php from_language to_language source_file_path output_file_path
+        Usage : php ci_translator.php from_language to_language source_file_path output_file_path
 
-        Example : ci_translator.php fr en /home/user/french/countries_lang.php /home/user/english/countries_lang.php
+        Example : php ci_translator.php fr en /home/user/french/countries_lang.php /home/user/english/countries_lang.php
 
